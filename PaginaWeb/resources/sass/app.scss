@@ -1,0 +1,99 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+i{
+	font-size: 20px;
+}
+a{
+	font-size: 14px;
+	text-align: center;
+}
+.min-h-screen{
+	height: 100vh;
+}
+.section{
+	transform: translateY(-570px);
+	width: 1100px;
+	margin-left: 150px;
+}
+.principal{
+transform: translateY(-500px);
+height: 100%;
+margin-bottom: -440px;
+border-radius: 10px;
+}
+.principal-reg{
+	transform: translateY(-550px);
+	height: 100%;
+	margin-bottom: -500px;
+	border-radius: 10px;
+}
+.principal-in{
+transform: translateY(-550px);
+height: 100%;
+border-radius: 10px;
+margin-bottom: -600px;
+}
+.principal-home{
+transform: translateY(-110px);
+height: 100%;
+margin-bottom: -70px;
+border-radius: 10px;
+}
+header{
+	height: 100vh;
+	background-image: url(/img/reciclaje.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	filter: brightness(0.4);
+	opacity: 90%;
+}
+.gris{
+	background: rgba(0,0,0,.0);
+	box-shadow: none!important;
+}
+nav ul li {
+	margin-left: 5px;
+}
+nav ul li:hover{
+	background: rgba(156,156,156,.300)!important;
+	border-radius: 5px;
+	transition-duration: 2s;
+}
+.active{
+	background: rgba(156,156,156,.300)!important;
+}
+.top-nav-collapse{
+	background: rgba(0,0,0,0.774);
+}
+.h-screen{
+	height: 100vh;
+}
+.levanta{
+	transform: translateY(-70%)!important;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px 2px rgba(0,0,0, 0.2);
+}
+.levanta i{
+	font-size: 30px;
+	color: white;
+}
+.levanta h3{
+	font-size: 30px;
+	color: white;
+}
+.login{
+	width: 100%!important;
+}
+.perfil-imagen{
+	margin-top: -60px;
+}
+.show{
+	background: rgba(0,0,0,0.600)!important;
+}
